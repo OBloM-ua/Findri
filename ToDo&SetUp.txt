@@ -1,0 +1,102 @@
+DONEed Goal:
+    -->show rides for not singin users   ----->Done )
+    -->проблема при швидкому перескакуванні з профіля на майн бє помилки --->Done)
+    --->Google maps API   --> DONE )
+    ---> see more ----> Done)
+    --->додати кількість оцінок  --> done
+    --->button  edit Ride.  open dialog on button edit ride  On button click trigger select option >>DoNE
+    --->поставити Зірочки посередині ----> Done
+    --->додати іконку верху справа для редагування і стирання --->DONE
+    --->remove Ride -----> Done
+    --->edit Ride  ======> Done
+    --->Date Picker  Зроибити нормальний датапікер ----->DOne
+    --->Геть лайнокод!  ------Done
+    --->Всі навігаційні пункти в одному випадаючому меню   ----> Done
+    --->  краї сірі як в ютубі  і ленка біла як ютубі кропки як в фейсбуці і синій колір з фейсбука стягнути ---> Done
+    --->  Statistich showInfoCointer ---> Done
+    --->  edit Design  ---> Done
+    --->Uncaught TypeError: Cannot read property 'check' of undefined   ------>DONE
+         browsers.isBackground() ? a.check.bg() : a.check.content()
+    ---> User shoud can't Delete olds Rides  (cloud functions) --- DONE
+    -->new Ride in Element Profile am Top hte Page --- DOne
+    --->check data imput  ....> in proces)	ще дату погано провіряє  ---DONE
+    --->переробити локалізацію бо датапікер робить погано  ---DONE
+    --->засетити поля з , до , дата.  ---DONE
+    --->Зробити так, щоб Google Places Autocomplete приймав відповідні значення місць при редагуванні  ---DONE
+    ---> remove functionality Editing Ride  --- > DOne
+    ---> no remove Ride sonder  mark as deleted  ---> DONE
+    ---> зробити гарну провірку заповненості полів proces (DONE)
+    ---> wenn we hawe no rides todey show text "No rides today" (DONE)
+    --->  fix button in Navigator (DONE)
+    ---> add text No rides in this Day (DONE)
+    --->  переробити бутстраповську верстку  off зліва замість порожньої хірні -- DONE
+    ---> add Button + -  (DONE)
+    ---> збільшити кількість міст проїздом від 1 до 3 (може) (DONE)
+    ---> save all through fields in Firebase (Done)
+    ---> wenn addRide in Field DateTime  minutes 41 51 ... shoud be 30 40 ... (Done  проблема була в min property)
+    ---> animation loading rideList (Done)
+    ---> автоматично переробляти карту відповідно до всіх проміжних точок.  DONE
+    ---> add AboutPage with out emails  =>DONE
+    ---> add googleMap to RidePage  DONE
+    ---> Button in PhoneView on Right site !DONE
+    ---> make fix nacbar DONE
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+1  Fix bug :
+
+
+2 RideAdd
+
+3 Provile
+
+4 Design
+
+5 Logik
+
+6 Phone
+
+7 Navbar
+
+8 Calendar
+        ---> make fix check for phone (i think its imposible)
+
+       9 About
+            ---> make version as bild number
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+How  setUp the project!
+
+1. Create Project
+
+npm install -g create-react-app
+create-react-app hello-world
+cd hello-world
+npm start
+
+2. include dependencies
+
+https://www.youtube.com/watch?v=8sQNXH5X7cA&index=7&list=PLIcAMDxr6tpoShAiU0Nh_nBtg19XWbCql#t=116.989062
+npm install react-router --save
+
+https://www.youtube.com/watch?v=mwNATxfUsgI&feature=youtu.be
+npm install firebase --save
+
+npm install moment --save
+
+https://www.npmjs.com/package/react-stars
+npm install react-stars --save
+
+http://jquense.github.io/react-widgets/docs/#/getting-started?_k=doy5br
+npm install react-widgets --save
+
+
+
+3. Deploy:
+npm run build
+firebase deploy --project transit-fae24
+
+
+4  FAVICONS http://realfavicongenerator.net/

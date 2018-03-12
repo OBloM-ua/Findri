@@ -1,0 +1,83 @@
+body {
+    background: #E9EBEE !important;
+    padding-top: 70px;
+}
+
+.list-group-item {
+    background-color: #FFFFFF !important;
+}
+
+.jumbotron {
+    background-color: #FFFFFF;
+}
+
+.center {
+    display: table;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.jumbotron-fixed {
+    position: fixed;
+}
+
+.btn-danger:active {
+    background-color: #66afe9;
+}
+
+.loading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.loadingRideList {
+    margin-top: 75px;
+}
+
+.btn-drop-down {
+    position: absolute;
+    top: .5em;
+    right: .5em;
+}
+
+.list-group-item {
+    background-color: #eee;
+}
+
+.map-directions {
+    height: 430px;
+}
+
+
+/*Navbar*/
+.nav-container {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    z-index:10;
+    background-color: #3b5998;
+    height: 50px;
+}
+
+.nav-logo {
+    display: inline-block;
+    float: left;
+    margin-left: 5%;
+    margin-top: 13px;
+}
+
+.nav-btn {
+    display: inline-block;
+    float: right;
+    margin-right: 5%;
+    margin-top: 8px;
+    cursor: pointer;
+}
