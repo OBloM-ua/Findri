@@ -54,6 +54,7 @@ class Main extends Component {
                       culture="en-GB"/>
           </div>
 
+
           {/*<!--RIDES-->*/}
           <div className="col-lg-7 col-sm-7	col-md-7">
             <h3>Search Rides</h3>
